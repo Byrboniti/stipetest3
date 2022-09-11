@@ -41,6 +41,6 @@ class ProductLandingPageView(TemplateView):
         context.update({
             "item": item,
             "prices": prices,
-            "STRIPE_PUBLIC_KEY": settings.STRIPE_PUBLIC_KEY
+
         })
         return context
